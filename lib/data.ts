@@ -2,10 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import taskManagerImg from "@/public/taskmanager.png";
-import techShopImg from "/TechShop.png";
-import copeWithStressImg from "@/public/coping-with-stress.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import taskManagerImg from "../public/taskmanager.png"
+import techshopImage from '../public/TechShop.png';
+import copeWithStressImg from "../public/cope-with-stress.png";
 
 export const links = [
   {
@@ -74,7 +73,7 @@ export const projectsData = [
     description:
       "Complete ecommerce offering a robust and scalable online shopping experience. Product management, user authentication and order processing.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: techShopImg,
+    imageUrl: techshopImage,
   },
   {
     title: "Coping with Stress",
