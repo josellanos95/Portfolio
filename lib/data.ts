@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import taskManagerImg from "../public/taskmanager.png"
 import techshopImage from '../public/TechShop.png';
-import copeWithStressImg from "../public/cope-with-stress.png";
+import copeWithStressImg from "../public/coping-with-stress.png";
 
 export const links = [
   {
