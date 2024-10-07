@@ -2,8 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import taskManagerImg from "@/public/taskmanager.png";
+import techShopImg from "@/public/techshop.png";
+import copeWithStressImg from "@/public/coping-with-stress.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -23,10 +24,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -62,25 +63,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Task Manager",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Developed with the MERN stack. The application allows users to manage their tasks efficiently, with secure authentication and real-time synchronization.",
+    tags: ["React", "Node", "MongoDB", "Vite", "Tailwind"],
+    imageUrl: taskManagerImg,
   },
   {
-    title: "rmtDev",
+    title: "TechShop",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Complete ecommerce offering a robust and scalable online shopping experience. Product management, user authentication and order processing.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: techShopImg,
   },
   {
-    title: "Word Analytics",
+    title: "Coping with Stress",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed with Nextjs. Page developed for an English class related to stress management.",
+    tags: ["React", "Next.js", "Tailwind", "Framer-motion", "Lucid react"],
+    imageUrl: copeWithStressImg,
   },
 ] as const;
 
@@ -94,14 +95,12 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
+  "Shadcn",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "Bootstrap",
   "Framer Motion",
 ] as const;
