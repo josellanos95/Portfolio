@@ -65,6 +65,7 @@ export const projectsData = [
       "Developed with the MERN stack. The application allows users to manage their tasks efficiently, with secure authentication and real-time synchronization.",
     tags: ["React", "Node", "MongoDB", "Vite", "Tailwind"],
     imageUrl: taskManagerImg,
+    link: "https://mern-task-manager-three.vercel.app/"
   },
   {
     title: "TechShop",
@@ -72,6 +73,7 @@ export const projectsData = [
       "Complete ecommerce offering a robust and scalable online shopping experience. Product management, user authentication and order processing.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: techshopImage,
+    link: "https://ecommerce-pm-4.vercel.app/"
   },
   {
     title: "Coping with Stress",
@@ -79,6 +81,7 @@ export const projectsData = [
       "Developed with Nextjs. Page developed for an English class related to stress management.",
     tags: ["React", "Next.js", "Tailwind", "Framer-motion", "Lucid react"],
     imageUrl: copeWithStressImg,
+    link: "https://coping-with-stress-english-lab-class.vercel.app/"
   },
   {
     title: "Tic Tac Toe",
@@ -86,6 +89,7 @@ export const projectsData = [
       "Interactive Tic-Tac-Toe game built with React and Vite. Features include two-player mode, responsive design, and game state persistence.",
     tags: ["React", "Vite", "CSS", "Javascript", "Canvas"],
     imageUrl: ticTacToeImg,
+    link: "https://tic-tac-toe-psi-ivory-73.vercel.app/"
   },
   {
     title: "Mouse follower",
@@ -93,6 +97,7 @@ export const projectsData = [
       "Interactive Mouse Follower application built with React and Vite. Features include a toggleable mouse-following effect, custom animations, and responsive design.",
     tags: ["React", "Vite", "CSS", "Javascript"],
     imageUrl: mouseFollowerImg,
+    link: "https://mouse-follower-one.vercel.app/"
   }
 ] as const;
 
