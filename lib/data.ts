@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import taskManagerImg from "../public/taskmanager.png"
 import techshopImage from '../public/TechShop.png';
 import copeWithStressImg from "../public/coping-with-stress.png";
+import ticTacToeImg from "../public/tic-tac-toe.png";
+import mouseFollowerImg from "../public/mouse-follower.png";
 
 export const links = [
   {
@@ -78,6 +80,20 @@ export const projectsData = [
     tags: ["React", "Next.js", "Tailwind", "Framer-motion", "Lucid react"],
     imageUrl: copeWithStressImg,
   },
+  {
+    title: "Tic Tac Toe",
+    description:
+      "Interactive Tic-Tac-Toe game built with React and Vite. Features include two-player mode, responsive design, and game state persistence.",
+    tags: ["React", "Vite", "CSS", "Javascript", "Canvas"],
+    imageUrl: ticTacToeImg,
+  },
+  {
+    title: "Mouse follower",
+    description:
+      "Interactive Mouse Follower application built with React and Vite. Features include a toggleable mouse-following effect, custom animations, and responsive design.",
+    tags: ["React", "Vite", "CSS", "Javascript"],
+    imageUrl: mouseFollowerImg,
+  }
 ] as const;
 
 export const skillsData = [
